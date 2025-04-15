@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX BOX</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        .main{
+            height: 300px;
+            /* padding: 30px; */
+
+            background-color: black;
+            color: white;
+
+            display: flex;
+            gap: 20px;
+
+            justify-content: space-between;
+        }
+        .box {
+            background-color: crimson;
+            height: 200px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 80px;
+        }
+        #main2{
+            justify-content: space-around;
+        }
+        #main3{
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+    <br><br>
+
+    <div class="main" id="main2">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+    <br><br>
+
+    <div class="main" id="main3">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+
+
+</body>
+</html>
